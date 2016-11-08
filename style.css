@@ -1,0 +1,86 @@
+* {
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background:#777;
+	font-size: 18px;
+	box-sizing: border-box;
+ 	content:#ebebeb;
+  	width: 960px;
+  	color:#777;
+  	//why four fonts on one line?
+}
+
+header {
+  	margin-top:20px;
+	background: #ebebeb;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #333;
+	box-sizing: border-box;
+	color:#777;
+}
+
+nav {
+  	margin-top:30px;
+	background: #ebebeb;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #333;
+	box-sizing: border-box;
+	text-align: center;
+	color:#777;
+}
+
+
+section {
+  padding: 20px;
+  background:#ebebeb;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  float: left;
+  width: 60%;
+  height: 300px;
+
+}
+
+article {
+	padding: 20px;
+	background:#777;
+	width:100%;
+	color: #ebebeb;
+}
+
+h1 {
+	padding:15px;
+	background: #ebebeb;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+p{
+	margin-top: 10px;
+	padding:15px;
+	background: #ebebeb;
+	width: 100%;
+	margin-bottom: 5px;
+}
+aside {
+	padding: 20px;
+	background:#ebebeb;
+	float: right;
+	margin-bottom: 20px;
+	width: 37%;
+	height:300px;
+//how do i get box to match section without hunt method?
+}
+
+footer {
+  clear: both;
+  background-color: #ebebeb;
+  padding: 20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+//Don't forget to review these concepts: float, padding, margin, display, overflow, clear and text-align.
